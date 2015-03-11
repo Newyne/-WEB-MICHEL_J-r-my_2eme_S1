@@ -1,6 +1,8 @@
 ﻿body
 {
-	background-image: url("intro.png");
+	background-image: url("../Img/fond.png");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 	min-width: 450px;
 }
 
