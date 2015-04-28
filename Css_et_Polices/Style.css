@@ -1,7 +1,11 @@
 ﻿body
 {
-	background-image: url("intro.png");
+	background-image: url("../Img/intro.png");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 	min-width: 450px;
+	margin-left: 1%;
+	margin-right: 8%;
 }
 
 h1
@@ -10,20 +14,68 @@ h1
 	border: 3px solid;
 	border-radius: 5px;
 	width: 90%;
-	background-color: black;
-	margin-left : auto;
+	margin-left: 150px;
 	margin-right: 0;
-	margin-top : 40px;
+	margin-top: 40px;
 }
 
 h2
 {
-	font-size: 37px;
+	font-size: 25px;
 	border: 2px solid;
 	border-radius: 5px;
 	width: 90%;
-	background-color: black;
-	margin-left : auto;
+	margin-left: 150px;
 	margin-right: 0;
-	margin-top : 40px;
+	margin-top: 40px;
+}
+
+h3
+{
+	font-size: 19px;
+	border: 2px solid;
+	border-radius: 5px;
+	width: 90%;
+	margin-left: 150px;
+	margin-right: 0;
+	margin-top: 40px;
+}
+
+nav
+{
+	top: 80px;
+	width: 100px;
+	font-size: 18px;
+	list-style-type: none;
+	position: fixed;
+	left: 0px;
+}
+
+nav li
+{
+	margin-bottom: 10px;
+	border: 1px solid;
+	border-color: white;
+	border-radius: 5px;
+	background-color: black;
+	text-align: center;
+	opacity: 0.7;
+	transition-duration: 0.8s;
+	display: inline-block;
+	width: 100px;
+}
+
+nav li:hover
+{
+	border-color: black;
+	border-radius: 20px;
+	background: gray url(../Img/gris.jpg) repeat-x;
+	transition-duration: 0.5s;
+}
+
+nav li a
+{
+	text-decoration: none;
+	color: white;
+	display: block;
 }
