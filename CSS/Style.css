@@ -94,7 +94,7 @@ article form
 	margin-top: 30px;
 	margin-bottom:1%;
 	box-shadow: 2px 2px 1px #888888;
-	
+	border: 1px solid;
 }
 
 article label
@@ -117,101 +117,30 @@ article button
 	float: right;
 }
 
-ul#menu 
+#entete h4
 {
-	list-style-type: none;
-	position: fixed;
-	width: 300px;
-	height: 300px;
-	background: url('./menu-soleil.gif') left top no-repeat;
-	float: left;
-	top: 6%;
-	vertical-align: text-bottom;
-}
-
-ul#menu li a 
-{
-	position: absolute;
-	z-index: 2;
-	height: 52px;
-	width: 77px;
-	text-decoration: none;
-	border: none;
-	font-weight: bold;
-	font-size: 16px;
-	font-family: verdana, arial, sans-serif;
-	line-height: 50px;
-	color: black;
-}
-
-ul#menu li a:hover, ul#menu a:active, ul#menu a:focus 
-{
-	top: 0;
-	left: 0;
-	z-index: 1;
-	color: #000099;
-	border-color: #CEF;
-	text-decoration: underline;
-	text-decoration-color: #ff9900;
-	background-image: url('./menu-soleil.gif');
-}
-
-#item1 
-{
-	top: 62px;
-	left: 225px;
-}
-
-#item2
-{
-	top: 131px;
-	left: 190px;
-}
-
-#item3 
-{
-	top: 189px;
-	left: 122px;
-}
-
-#item4
-{
-	top: 223px;
-	left: 48px;
-}
-
-#item1:hover, #item1:active, #item1:focus 
-{
-	padding-top: 62px;
-	padding-left: 225px;
-	background-position: -300px top;
-}
-
-#item2:hover, #item2:active, #item2:focus
-{
-	padding-top: 131px;
-	padding-left: 190px;
-	background-position: -600px top;
-}
-
-#item3:hover, #item3:active, #item3:focus
-{
-	padding-top: 189px;
-	padding-left: 122px;
-	background-position: -900px top;
-}
-
-#item4:hover, #item4:active, #item4:focus
-{
-	padding-top: 223px;
-	padding-left: 48px;
-	background-position: -1200px top;
+	display: block;
+	float: right;
+	margin-right: 10px;
 }
 
 *
 {
 	margin: 0;
 	padding: 0;
+}
+
+ul#menu li { 
+
+	display: inline;
+	padding: 0 0.5em;
+
+}
+
+ul#menu {
+
+	list-style-type: none;
+
 }
 
 #img1
