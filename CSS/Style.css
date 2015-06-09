@@ -43,41 +43,41 @@ h1
 {
 	font-size: 35px;
 	border: 2px solid;
-	width: 70%;
-	margin-left: 360px;
-	margin-right: auto;
+	margin-left: 20%;
+	margin-right: 20%;
 	margin-top: 7%;
 	box-shadow: 8px 8px 3px #888888;
 	font-family: sans-serif;
-	background-color: #FEC043;
+	background-color: #FEA347;
+	text-align: center;
 }
 
 h2
 {
 	font-size: 24px;
 	border: 1px solid;
-	width: 70%;
-	margin-left: 360px;
-	margin-right: auto;
+	margin-left: 20%;
+	margin-right: 20%;
 	margin-top: 28px;
 	margin-bottom: 4%;
 	box-shadow: 6px 6px 2px #888888;
 	font-family: sans-serif;
-	background-color: #FEC043;
+	background-color: #FEA347;
+	text-align: center;
 }
 
 h3
 {
 	font-size: 15px;
 	border: 1px solid;
-	width: 70%;
-	margin-left: 360px;
-	margin-right: auto;
+	margin-left: 20%;
+	margin-right: 20%;
 	margin-top: 30px;
 	margin-bottom: 4%;
 	box-shadow: 4px 4px 1px #888888;
 	font-family: sans-serif;
-	background-color: #FEC043;
+	background-color: #FFCB60;
+	padding-left: 50px
 }
 
 h4
@@ -89,8 +89,8 @@ h4
 
 article form
 {
-	margin-left: 360px;
-	margin-right: auto;
+	margin-left: 20%;
+	margin-right: 20%;
 	margin-top: 30px;
 	margin-bottom:1%;
 	box-shadow: 2px 2px 1px #888888;
@@ -107,7 +107,7 @@ article label
 article button
 {
 	width: 150px;
-	margin-left: 200px;
+	margin-left: 220px;
 	margin-top: 10px;
 }
 
@@ -122,6 +122,12 @@ article button
 	display: block;
 	float: right;
 	margin-right: 10px;
+	margin-top: 2px;
+}
+
+#login p 
+{
+	margin-top: -20px
 }
 
 *
@@ -130,29 +136,59 @@ article button
 	padding: 0;
 }
 
-ul#menu li { 
-
+ul#menu li 
+{ 
 	display: inline;
 	padding: 0 0.5em;
-
 }
 
-ul#menu {
-
+ul#menu 
+{
 	list-style-type: none;
+}
 
+#menu
+{
+	margin-left: 12%;
+	margin-top: -40px;
+}
+
+p label
+{
+	margin-left: 20px;
+}
+
+#menu li 
+{
+   margin: 0;
+   padding: 0;
+   display: inline;
+   list-style-type: none;
+}
+
+#menu li:hover
+{
+	border-bottom: 4px solid #696;
+	padding-bottom: 2px;
+	background: #FFF none repeat scroll 0% 0%;
+	color: #363;
+}
+
+#menu a:link, #menu a:visited 
+{
+   float: left;
+   font-size: 20px;
+   line-height: 14px;
+   font-weight: bold;
+   margin: 0 10px 4px 10px;
+   text-decoration: none;
+   color: #9c9;
 }
 
 #img1
 {
-	max-width: 100%;
-	width: 140px;
-	height: 100px;
-	z-index: 2;
-	position: fixed;
-	list-style-type: none;
-	float: left;
-	top: 7%;
+	width: 60px;
+	height: auto;
 }
 
 #img2
