@@ -1,40 +1,62 @@
-﻿<!DOCTYPE html>
-<html>
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr"><!--Menu déroulant inspiré du site developpez.com-->
+
 	<head>
-		<title>Université Lyon 1</title>
-		<link rel="stylesheet" type="text/css" href="Css_et_Polices/Style.css"/>
+		<title>IUT Lyon 1</title>
+		<link rel="stylesheet" type="text/css" href="CSS/Style.css"/>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 		<meta charset='utf-8' />
 	</head>
-	
+		
 	<body>
 		<header>			
 			<h1>Qu'est-ce qu'un Projet Tuteuré ?</h1>		
 		</header>
 		
+		<div id="entete">
+			<div id="login">
+				<form method="post" action="/ma_page_de_traitement">
+					<p>
+						<label for="pseudo">Pseudo :</label>
+						<input type="text" name="pseudo" placeholder="Ex : p1405985" size="12" maxlength="8"/>
+						<label for="pass">Mot de Passe :</label>
+						<input type="password" name="pass" size="12" maxlength="10"/>
+						<button type="submit">Connexion</button>
+					</p>
+					<p>
+						<h4>Vous n'avez pas de compte ? Cliquez <a id="lien" href="Login.html">ici</a></h4> 
+					</p>
+				</form>
+			</div>
+		</div> 
+		
+		<a href="Index.html"><img id="img1" alt="logo_IUT" src='Img/Logo_Lyon1.png'></a>
+			
 		<nav>
-			<ul>
-				<li><a href="Index.html">Accueil</a></li>
-				<li><a href="Liste.html">Listes des Projets Tuteurés</a></li>
-				<li><a href="QunPTUT.html">Qu'est-ce qu'un Projet Tuteuré ? </a></li>
-				<li><a href="Recherche_Critere.html">Recherche de Projets Tuteurés sur critères</a></li>
-				<li><a href="Login.html">Login</a></li>
+			<ul id="menu">
+				<li><a id="item1" href="Liste.html">Listes</a></li>
+				<li><a id="item2" href="QunPTUT.html">Renseignements</a></li>
+				<li><a id="item3" href="Recherche_Critere.html">Recherche</a></li>
+				<li><a id="item4" href="Contact.html">Contact</a></li>
 			</ul>
 		</nav>
-		
+			
 		<article>
-			<h3><p>Le projet tuteuré permet aux étudiants :</p>
+			<h3><p>Le projet tuteuré permet aux étudiants :</p></br>
 
-				<p>-D’apprendre à travailler en équipe et de réaliser une mission en groupe.</p>
-				<p>-De piloter en totalité un projet en tenant compte de contraintes matérielles, humaines 
-				et de temps.</p>
-				<p>-De connaître et manipuler des outils de gestion de projet.</p>
+				<ul>
+					<li>D’apprendre à travailler en équipe et de réaliser une mission en groupe.</li></p>
+					<li>De piloter en totalité un projet en tenant compte de contraintes matérielles, humaines 
+					et de temps.</li>
+					<li>De connaître et manipuler des outils de gestion de projet.</li></br>
+				</ul>
 
 				<p>Il s’agit d’un travail collectif réalisé par groupes de 3 à 6 étudiants sur un sujet 
 				choisit parmis une liste de projet proposé par les tuteurs, ou sur un sujet choisit par 
 				les élèves aux-même mais validé par leur tuteur. Les élèves doivent être présent à un 
-				comité de pilotage fin janvier et à la soutenance finale en avril).</p>
+				comité de pilotage fin janvier et à la soutenance finale en avril).</p></br>
 
-				<p>Les projets proposés sont en rapport avec l’informatique.</p>
+				<p>Les projets proposés sont en rapport avec l’informatique.</p></br>
 
 				<p>Exemples de sujets traités ces dernières années : mise en place d’une cellule de veille 
 				pour un institut de recherche en physique, organisation d’une exposition sur le traitement
@@ -42,26 +64,36 @@
 				en physiologie, inventaire d'un fonds patrimonial en botanique et création d'une base de
 				données, réalisation de supports (livret, jeu éducatif) sur l'influence de la qualité de
 				l'air sur la santé...</p></h3>
-				
+					
 				<h2><p>Compétences acquises</p></h2>
 
-				<h3><p>Méthodologiques :</p>
-				<p>Analyse du contexte, de l’existant.</p>
-				<p>Analyse fonctionnelle.</p>
-				<p>Gestion du temps, répartition des tâches et des rôles.</p>
-				<p>Communication (dans le groupe, avec le tuteur, avec le commanditaire). 
-				Gestion de conflits.</p>
+				<h3><p>Méthodologiques :</p></br>
+				<ul>
+					<li>Analyse du contexte, de l’existant.</li>
+					<li>Analyse fonctionnelle.</li>
+					<li>Gestion du temps, répartition des tâches et des rôles.</li>
+					<li>Communication (dans le groupe, avec le tuteur, avec le commanditaire).</li>
+					<li>Gestion de conflits.</li>
+				</ul>
+				</br>
 
-
-				<p>Techniques :</p>
-				<p>Outre les compétences acquises liées au sujet traité, les étudiants sont capables à 
-				l'issue du projet de :</p>
-				<p>- produire la documentation projet (rédaction de compte-rendus, de rapports intermédiaires,
-				de documents afférents au livrable...)</p>
-				<p>- gérer la documentation projet (notamment à l'aide d'outils collaboratifs)</p>
-				<p>- découper un projet en tâches</p>
-				<p>- utiliser des outils informatiques de gestion du temps (Gantt Project…)</p>
-				<p>- organiser des réunions.</p></h3>	
-		</article>		
-	</body>
+				<p>Techniques :</p></br>
+				<p>	Outre les compétences acquises liées au sujet traité, les étudiants sont capables à 
+					l'issue du projet de :</p></br>
+				<ul>
+					<li>Produire la documentation projet (rédaction de compte-rendus, de rapports intermédiaires,
+					de documents afférents au livrable...)</li>
+					<li>Gérer la documentation projet (notamment à l'aide d'outils collaboratifs)
+					découper un projet en tâches</li>
+					<li>Organiser des réunions.</li>
+				</ul>
+			</h3>	
+		</article>	
+		
+		<div id="piedpage">
+			<h4>Iut Lyon 1 - 3,rue de l'Emetteur - 69622 Villeurbanne Cedex</h4>
+			<h4>Lien vers le site de l'IUT : <a id="lien" href="http://iut.univ-lyon1.fr/">http://iut.univ-lyon1.fr/</a></h4>
+			<img id="img2" alt="Université Claude Bernard Lyon 1" src='img/logo-lyon1.png'>
+		</div>	
+	</body>	
 </html>
