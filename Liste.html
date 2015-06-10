@@ -1,9 +1,9 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr"><!--Menu déroulant inspiré du site developpez.com-->
-
+﻿<!DOCTYPE html>
+<html>
 	<head>
 		<title>IUT Lyon 1</title>
 		<link rel="stylesheet" type="text/css" href="CSS/Style.css"/>
+		<link rel="stylesheet" media="only screen and (max-device-width: 1100px)" type="text/css" href="CSS/petitecran.css"/>
 		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 		<meta charset='utf-8' />
 	</head>
@@ -28,29 +28,29 @@
 				<form method="post" action="/ma_page_de_traitement">
 					<p>
 						<label for="pseudo">Pseudo :</label>
-						<input type="text" name="pseudo" placeholder="Ex : p1405985" size="12" maxlength="8"/>
+						<input type="text" id="pseudo" name="pseudo" placeholder="Ex : p1405985" size="12" maxlength="8"/>
 						<label for="pass">Mot de Passe :</label>
-						<input type="password" name="pass" size="12" maxlength="10"/>
+						<input type="password" id="pass" name="pass" size="12" maxlength="10"/>
 						<button type="submit">Connexion</button>
 					</p>
-					<p>
-						<h4>Vous n'avez pas de compte ? Cliquez <a id="lien" href="Login.html">ici</a></h4> 
-					</p>
+					<h4>
+						Vous n'avez pas de compte ? Cliquez <a href="Login.html">ici</a>
+					</h4> 
 				</form>
 			</div>
 		</div>
 			
 		<article>
 			<p>
-				<img id="imgalign" alt="Poster_A1" src='Exemples/PostersS1-2015/Poster_A1.jpg'>
-				<img id="imgalign" alt="Poster_A1" src='Exemples/PostersS1-2015/poster3.jpg'>
-				<img id="imgalign" alt="Poster_A1" src='Exemples/PostersS1-2015/poster8.jpg'>
+				<a href="ptut1.html"><img class="imgalign" alt="ptut 1" src='Img/im1.jpg'></a>
+				<a href="ptut2.html"><img class="imgalign" alt="ptut 2" src='Img/im2.jpg'></a>
+				<a href="ptut3.html"><img class="imgalign" alt="ptut 3" src='Img/im3.jpg'></a>
 			</p>
 		</article>
 		
 		<div id="piedpage">
 			<h4>Iut Lyon 1 - 3,rue de l'Emetteur - 69622 Villeurbanne Cedex</h4>
-			<h4>Lien vers le site de l'IUT : <a id="lien" href="http://iut.univ-lyon1.fr/">http://iut.univ-lyon1.fr/</a></h4>
+			<h4>Lien vers le site de l'IUT : <a href="http://iut.univ-lyon1.fr/">http://iut.univ-lyon1.fr/</a></h4>
 			<img id="img2" alt="Université Claude Bernard Lyon 1" src='img/logo-lyon1.png'>
 		</div>
 	</body>	
